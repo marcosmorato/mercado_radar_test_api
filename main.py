@@ -9,7 +9,7 @@ def main():
             requests.get("https://mercado-radar-test-request-api.herokuapp.com/").json()
         )
 
-        time.sleep(50)
+        time.sleep(100)
 
 
 if __name__ == "__main__":
